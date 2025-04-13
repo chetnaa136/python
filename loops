@@ -1,0 +1,85 @@
+# 2 types of loops in python
+# for loop 
+# when starting and ending is known
+# no. of loops are known 
+# and
+# while loop
+# when no. of loops are unknown
+# for infinite looping
+# wap to print n natural numbers
+# n=int(input("enter no. of natural numbers u want to print"))
+# i=1
+# while i<=n:
+#     print(i)
+#     i=i+1
+# print(i)
+# interview question
+# how many times did the loop run?
+# ans-n+1 times yane ki jitni baar bhi condition true hui hai +1
+# print n odd and even numbers
+# n=int(input("enter no. of natural numbers u want to print"))
+# question- odd even upto n ,odd even only till less than equal to n,separator and end wala
+# i=1
+# while i<=n:
+#     if i<n:
+#         print(i,end=",")
+#     else:
+#         print(i)
+#     i=i+1
+# by default print is like
+# print("string",end="/n",sep=" ")
+# sum of n natural numbers
+# i=1
+# sum=0
+# while i<=n:
+#     sum=sum+i
+#     if i<n:
+#         print(i,end="+")
+#     else:
+#         print(i,end="=")
+#     i=i+1
+# print(sum)
+# multiplication
+# i=1
+# mult=1
+# while i<=n:
+#     mult=mult*i
+#     if i<n:
+#         print(i,end="*")
+#     else:
+#         print(i,end="=")
+#     i=i+1
+# print(mult)
+# factorial
+# n=int(input("enter no. of natural numbers u want to print"))
+# i=1
+# fact=1
+# while n>=1:
+#     fact=fact*n
+#     n=n-1
+# print(f'factorial of {n} is {fact}')
+# format string
+# print('factorial of {} is equal to {}'.format(n,fact))
+# n even no. and even number till n and sum
+# n=input("enter no. of natural numbers u want to print")
+# i=1
+# palindrome and reverse
+# rev=[,,-1]
+# if n==rev:
+#     print("its a palindrome")
+# else:
+#     print("not a palindrome")
+n=int(input("enter number"))
+x=n
+rev=0
+while n>0:
+    last=n%10
+    rev=rev*10+last
+    n=n//10
+print(rev)
+print(x)
+if x==rev:
+    print("it is a palindrome")
+else:
+    print("not a palindrome")
+     
