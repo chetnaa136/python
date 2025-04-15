@@ -16,12 +16,18 @@
 # if x>y:
 #     pass
 # print("hello")
-n=10
-i=0
-while i<=10:
-    if i==5:
-        i=i+1
-        continue
-    print(i)
-    i=i+1
-
+# n=10
+# i=0
+# while i<=10:
+#     if i==5:
+#         i=i+1
+#         continue
+#     print(i)
+#     i=i+1
+x=int(input("enter number 1:"))
+y=int(input("enter number 2:"))
+mv=min(x,y)
+for i in range(1,mv):
+    if x%i==0 and y%i==0:
+        hcf=i
+print(hcf)
