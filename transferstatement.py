@@ -24,10 +24,10 @@
 #         continue
 #     print(i)
 #     i=i+1
-x=int(input("enter number 1:"))
-y=int(input("enter number 2:"))
-mv=min(x,y)
-for i in range(1,mv):
-    if x%i==0 and y%i==0:
-        hcf=i
-print(hcf)
+# x=int(input("enter number 1:"))
+# y=int(input("enter number 2:"))
+# mv=min(x,y)
+# for i in range(1,mv):
+#     if x%i==0 and y%i==0:
+#         hcf=i
+# print(hcf)
